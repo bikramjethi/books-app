@@ -5,4 +5,5 @@ export default styled.div`
   background: yellow;
   border-radius: 5px;
   writing-mode: tb-rl;
+  cursor: pointer;
 `;
