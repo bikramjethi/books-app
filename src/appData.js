@@ -4,12 +4,12 @@ export const B = 'BOUGHT';
 export const BR = 'BOUGHTNREAD';
 export const TB = 'TOBUY';
 
-export const books = [
+export const booksData = [
   {
     name: "Sapiens",
     author: "Yuval Noah Harari",
     year: "2014",
-    status: BOUGHT,
+    status: B,
     listedPrices: {
       amazon: 219,
       seller23: 200,
