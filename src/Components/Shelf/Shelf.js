@@ -5,7 +5,6 @@ import ShelfRow from "../ShelfRow";
 const Shelf = ({ className, name, books }) => {
   let booksArray = [];
   while (books.length > 0) booksArray.push(books.splice(0, 18));
-  console.log(books);
   return (
     <StyledShelf className={className}>
       <h2>{name}</h2>
@@ -14,6 +13,7 @@ const Shelf = ({ className, name, books }) => {
           <ShelfRow
             className={`shelf-row ${index === 2 ? "last-row" : ""}`}
             books={subArray}
+            key={`${name}`}
           />
         ))}
       </div>

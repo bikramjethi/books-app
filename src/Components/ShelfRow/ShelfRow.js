@@ -5,7 +5,7 @@ import Book from '../Book';
 const ShelfRow = ({ className, books }) => (
   <StyledShelfRow className={className}>
     {books.map(book => (
-      <Book details={book} />
+      <Book details={book} key={book.name}/>
     ))}
   </StyledShelfRow>
 );

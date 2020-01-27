@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 import Shelf from "./Components/Shelf";
-import { booksData, BOUGHT, READ, TOBUY } from "./appData";
+import { booksData, BOUGHT, READ } from "./appData";
 
 function App() {
   let toBuy = [],
