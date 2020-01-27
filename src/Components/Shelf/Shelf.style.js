@@ -35,9 +35,10 @@ export default styled.div`
   }
 
   .shelf-row {
-      border-bottom: 10px solid blue;
-      &:last-child {
-        border-bottom: none;
-      }
+    border-bottom: 10px solid blue;
+  }
+
+  .last-row {
+    border-bottom: none;
   }
 `;

@@ -29,5 +29,17 @@ export const booksData = [
       bought: 99
     },
     review: "Learn How to manage your finance"
+  },
+  {
+    name: "Animal Farm",
+    author: "George Orwell",
+    year: "1945",
+    status: READ,
+    listedPrices: {
+      amazon: 79,
+      seller23: NA,
+      bought: 79
+    },
+    review: "How politics eventually ends up"
   }
 ];

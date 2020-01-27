@@ -9,4 +9,5 @@ export default styled.div`
   white-space: nowrap;
   text-overflow: ellipsis;
   overflow: hidden;
+  margin-right: 2px;
 `;
