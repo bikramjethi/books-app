@@ -3,12 +3,12 @@ import styled from "styled-components";
 export default styled.div`
   width: 30%;
   text-align: center;
-  height: 100%;
+  height: 60%;
 
   .shelf {
     border: 10px solid red;
     border-radius: 10px;
-    height: 70%;
+    height: 100%;
   }
 
   &.to-buy {
