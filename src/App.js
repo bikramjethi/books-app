@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <Shelf name="TO BUY" books={[]} className="to-buy"/>
       <Shelf name="BOUGHT" books={[]} className='bought'/>
-      <Shelf name="TO READ" books={[]} className='to-read'/>
+      <Shelf name="BOUGHT & READ" books={[]} className='read'/>
     </div>
   );
 }
